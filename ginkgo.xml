@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   <remote name="cry" 
-            fetch="https://github.com/sailfish-ginkgo" />
-    <remote name="los" 
-            fetch="https://github.com/sailfish-ginkgo" 
-            revision="lineage-18.1" />
-<project path="device/xiaomi/ginkgo"
-name="android_device_xiaomi_ginkgo"
-remote="los" />
-<project path="device/xiaomi/sm6125-common"
-name="android_device_xiaomi_sm6125-common"
-remote="los" />
-<project path="kernel/xiaomi/sm6125"
-name="android_kernel_xiaomi_sm6125"
-remote="los" />
-<project path="vendor/xiaomi/ginkgo"
-name="android_vendor_xiaomi_ginkgo"
-revision="eleven" remote="cry" />
-<project path="hybris/hybris-boot" 
-name="sailfish-ginkgo/hybris-boot" 
-revision="master" />
-<project path="vendor/xiaomi/sm6125-common"
-name="vendor_sm6125-common"
-remote="los" />
+
+<remote name="cry" fetch="https://github.com/sailfish-ginkgo" />
+<remote name="los" fetch="https://github.com/sailfish-ginkgo" revision="lineage-18.1" />
+
+<project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo" remote="los" />
+<project path="device/xiaomi/sm6125-common" name="android_device_xiaomi_sm6125-common" remote="los" />
+<project path="kernel/xiaomi/sm6125" name="android_kernel_xiaomi_sm6125" remote="los" />
+<project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo" revision="eleven" remote="cry" />
+<project path="hybris/hybris-boot" name="sailfish-ginkgo/hybris-boot" revision="master" />
+<project path="vendor/xiaomi/sm6125-common" name="vendor_sm6125-common" remote="los" />
+
 </manifest>
