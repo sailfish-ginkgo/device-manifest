@@ -4,6 +4,7 @@
 <remote name="cry" fetch="https://github.com/sailfish-ginkgo" />
 <remote name="los" fetch="https://github.com/sailfish-ginkgo" revision="lineage-18.1" />
 
+<remove-project path="hybris/hybris-boot" name="mer-hybris/hybris-boot" />
 <project path="device/xiaomi/ginkgo" name="android_device_xiaomi_ginkgo" remote="los" />
 <project path="device/xiaomi/sm6125-common" name="android_device_xiaomi_sm6125-common" remote="los" />
 <project path="kernel/xiaomi/sm6125" name="android_kernel_xiaomi_sm6125" remote="los" />
