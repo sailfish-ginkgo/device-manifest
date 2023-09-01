@@ -11,5 +11,8 @@
 <project path="vendor/xiaomi/ginkgo" name="android_vendor_xiaomi_ginkgo" revision="eleven" remote="cry" />
 <project path="hybris/hybris-boot" name="sailfish-ginkgo/hybris-boot" revision="master" />
 <project path="vendor/xiaomi/sm6125-common" name="vendor_sm6125-common" remote="los" />
+<project path="rpm/" name="droid-hal-ginkgo" revision="master" remote="cry" />
+<project path="hybris/droid-configs" name="droid-config-ginkgo" revision="master" remote="cry" />
+<project path="hybris/droid-hal-version-ginkgo" name="droid-hal-version-ginkgo" revision="master" remote="cry" />
 
 </manifest>
