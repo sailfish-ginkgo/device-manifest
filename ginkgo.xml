@@ -14,5 +14,6 @@
 <project path="rpm/" name="droid-hal-ginkgo" revision="master" remote="cry" />
 <project path="hybris/droid-configs" name="droid-config-ginkgo" revision="master" remote="cry" />
 <project path="hybris/droid-hal-version-ginkgo" name="droid-hal-version-ginkgo" revision="master" remote="cry" />
-
+<project path="external/fake_crypt" name="erfanoabdi/fake_crypt" />
+  
 </manifest>
